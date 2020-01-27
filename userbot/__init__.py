@@ -202,7 +202,7 @@ with bot:
         quit(1)
 
 # Global Variables
-TELEGRAPHSHORTNAME = os.environ.get("TELEGRAPHSHORTNAME", None)
+TELEGRAPHSHORTNAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
 COUNT_MSG = 0
 USERS = {}
 COUNT_PM = {}
