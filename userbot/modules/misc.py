@@ -129,6 +129,7 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "Click [here](https://github.com/mkaraniya/OpenUserBot) to open OpenUserBot's GitHub page."
+        "Click [here](https://github.com/andreasjp0/restibot) to open My GitHub page."
     )
 
 
